@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Web (Chrome) - fixed ports",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "args": [
+        "--web-hostname", "127.0.0.1",
+        "--web-port", "5173",
+        "--vm-service-port", "56803",
+        "--dds-port", "59000",
+        "--devtools-server-address", "http://127.0.0.1:9101"
+      ]
+    }
+  ]
+}

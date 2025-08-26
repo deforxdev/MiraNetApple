@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "flutter-run-web-fixed",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d", "chrome",
+				"--web-hostname", "127.0.0.1",
+				"--web-port", "5173",
+				"--vm-service-port", "56803",
+				"--dds-port", "59000"
+			],
+			"isBackground": false,
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "flutter-run-android-debug",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"windows"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
