@@ -1,16 +1,16 @@
-# MiraNet Android
+# MiraNetApple
 
 Flutter app scaffold with Supabase authentication (email/password).
 
 ## Setup
 
-1. Create a project on Supabase, enable Email auth.
-2. Copy `.env.example` to `.env` and fill `SUPABASE_URL` and `SUPABASE_ANON_KEY`.
-3. Install dependencies and run the app.
+1. Створіть проект у Supabase та увімкніть Email auth.
+2. Скопіюйте `.env.example` у `.env` і заповніть `SUPABASE_URL` та `SUPABASE_ANON_KEY`.
+3. Встановіть залежності та запустіть додаток.
 
 ## Features (MVP)
-- Email/password Sign up and Log in via Supabase
-- Session-aware routing to Home
+- Email/Password Sign up та Log in через Supabase
+- Збереження сесії та маршрутизація на Home
 - Sign out
 
-Roadmap: user profiles, posts, feed, chats.
+Roadmap: профілі користувачів, пошук, підписки, пости, стрічка, чати (DM), налаштування приватності.
